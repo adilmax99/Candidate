@@ -1,0 +1,9 @@
+composer require maatwebsite/excel
+php artisan vendor:publish
+php artisan tinker
+factory(App\User::class, 20)->create();
+php artisan make:controller TestController
+Import Export Excel & Csv to Database in Laravel 5.7 Example
+php artisan make:import ImportCandidate --model=Candidate
+php artisan make:export ExportCandidate --model=
+composer require rap2hpoutre/fast-excel
